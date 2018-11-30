@@ -1,0 +1,11 @@
+debug\system_lpc54114_cm4.o: ../../../../../../devices/LPC54114/system_LPC54114_cm4.c
+debug\system_lpc54114_cm4.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\system_lpc54114_cm4.o: ../../../../../../devices/LPC54114/fsl_device_registers.h
+debug\system_lpc54114_cm4.o: ../../../../../../devices/LPC54114/LPC54114_cm4.h
+debug\system_lpc54114_cm4.o: ../../../../../../CMSIS/Include/core_cm4.h
+debug\system_lpc54114_cm4.o: ../../../../../../CMSIS/Include/core_cmInstr.h
+debug\system_lpc54114_cm4.o: ../../../../../../CMSIS/Include/cmsis_armcc.h
+debug\system_lpc54114_cm4.o: ../../../../../../CMSIS/Include/core_cmFunc.h
+debug\system_lpc54114_cm4.o: ../../../../../../CMSIS/Include/core_cmSimd.h
+debug\system_lpc54114_cm4.o: ../../../../../../devices/LPC54114/system_LPC54114_cm4.h
+debug\system_lpc54114_cm4.o: ../../../../../../devices/LPC54114/LPC54114_cm4_features.h

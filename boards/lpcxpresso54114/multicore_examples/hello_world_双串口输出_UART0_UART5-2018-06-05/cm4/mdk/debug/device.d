@@ -1,0 +1,16 @@
+debug\device.o: ..\..\src\device.c
+debug\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+debug\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+debug\device.o: ..\..\inc\types.h
+debug\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+debug\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+debug\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+debug\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\device.o: ..\..\inc\errno.h
+debug\device.o: ..\..\inc\compiler.h
+debug\device.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+debug\device.o: ..\..\inc\utils.h
+debug\device.o: ..\..\inc\klist.h
+debug\device.o: ..\..\inc\device.h
+debug\device.o: ..\..\inc\kfifo.h
+debug\device.o: ..\..\inc\object.h

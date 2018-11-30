@@ -1,0 +1,968 @@
+Dependencies for Project 'hello_world_cm4', Target 'hello_world_cm4 Debug': (DO NOT MODIFY !)
+F (../incbin.s)(0x58E35FA2)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ../../cm0plus/mdk/debug-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 522" --pd "CHIP_LPC5411X SETA 1" --pd "CPU_LPC54114J256_M4 SETA 1" --pd "DEBUG SETA 1" --pd "__CC_ARM SETA 1" --pd "KEIL SETA 1"--list .\output\incbin.lst -o debug\incbin.o --depend debug\incbin.d)
+I (..\..\cm0plus\mdk\debug\core1_image.bin)(0x5B359E73)
+F (../hello_world_core0.c)(0x5B3B1197)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\hello_world_core0.o --omf_browse debug\hello_world_core0.crf --depend debug\hello_world_core0.d)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (../board.h)(0x5AEAF7E1)
+I (../clock_config.h)(0x58E35FA2)
+I (../../../../../../middleware/multicore_2.2.0/mcmgr/src/mcmgr.h)(0x58E35FA2)
+I (../../pin_mux.h)(0x5B055BFD)
+I (../../../../../../devices/LPC54114/drivers/fsl_usart.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_sctimer.h)(0x58E35FA2)
+I (..\..\app\app_si70xx.h)(0x5B163264)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\app\app_dev_ctrl.h)(0x5B2CF427)
+I (..\..\inc\alloter.h)(0x5A94B7BB)
+I (..\..\inc\types.h)(0x5A405A91)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F606B6)
+I (..\..\inc\errno.h)(0x598A9B88)
+I (..\..\inc\compiler.h)(0x59914D60)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\..\app\protocol_smart.h)(0x5B14AB7E)
+I (..\..\inc\utils.h)(0x5B10E698)
+I (..\..\app\app_lcd.h)(0x5AFFE435)
+I (..\..\app\app_key.h)(0x5AF574EA)
+I (..\..\app\app_realy.h)(0x5AFEB99E)
+I (..\..\app\app_spiflash.h)(0x5AF19849)
+I (..\..\app\app_beep.h)(0x5AFFD522)
+I (..\..\app\smart_plc.h)(0x5B10F608)
+I (..\..\..\..\..\..\devices\LPC54114\cmsis_drivers\fsl_usart_cmsis.h)(0x58E35FA2)
+I (..\..\..\..\..\..\CMSIS\Driver\Include\Driver_USART.h)(0x58E35FA2)
+I (..\..\..\..\..\..\CMSIS\Driver\Include\Driver_Common.h)(0x58E35FA2)
+I (../../RTE_Device.h)(0x5B04F938)
+I (../../../../../../devices/LPC54114/drivers/fsl_usart_dma.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_dma.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_mailbox.h)(0x58E35FA2)
+F (../readme.txt)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/arm/startup_LPC54114_cm4.s)(0x58E35FA2)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I ../../cm0plus/mdk/debug-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 522" --pd "CHIP_LPC5411X SETA 1" --pd "CPU_LPC54114J256_M4 SETA 1" --pd "DEBUG SETA 1" --pd "__CC_ARM SETA 1" --pd "KEIL SETA 1"--list .\output\startup_lpc54114_cm4.lst -o debug\startup_lpc54114_cm4.o --depend debug\startup_lpc54114_cm4.d)
+F (../../../../../../devices/LPC54114/system_LPC54114_cm4.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\system_lpc54114_cm4.o --omf_browse debug\system_lpc54114_cm4.crf --depend debug\system_lpc54114_cm4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+F (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/drivers/fsl_usart.h)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/drivers/fsl_usart.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_usart.o --omf_browse debug\fsl_usart.crf --depend debug\fsl_usart.d)
+I (../../../../../../devices/LPC54114/drivers/fsl_usart.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_flexcomm.h)(0x58E35FA2)
+F (../../../../../../devices/LPC54114/drivers/fsl_flexcomm.h)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/drivers/fsl_flexcomm.c)(0x5B0BE482)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_flexcomm.o --omf_browse debug\fsl_flexcomm.crf --depend debug\fsl_flexcomm.d)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_flexcomm.h)(0x58E35FA2)
+F (../../../../../../devices/LPC54114/drivers/fsl_iocon.h)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/drivers/fsl_gpio.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_gpio.o --omf_browse debug\fsl_gpio.crf --depend debug\fsl_gpio.d)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+F (../../../../../../devices/LPC54114/drivers/fsl_mailbox.h)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/drivers/fsl_common.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_common.o --omf_browse debug\fsl_common.crf --depend debug\fsl_common.d)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+F (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/drivers/fsl_clock.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_clock.o --omf_browse debug\fsl_clock.crf --depend debug\fsl_clock.d)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_power.h)(0x58E35FA2)
+F (../../../../../../devices/LPC54114/drivers/fsl_power.h)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/drivers/fsl_power.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_power.o --omf_browse debug\fsl_power.crf --depend debug\fsl_power.d)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_power.h)(0x58E35FA2)
+F (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/drivers/fsl_reset.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_reset.o --omf_browse debug\fsl_reset.crf --depend debug\fsl_reset.d)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+F (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_i2c.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_i2c.o --omf_browse debug\fsl_i2c.crf --depend debug\fsl_i2c.d)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_i2c.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_clock.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_reset.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_flexcomm.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+F (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_spi.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_spi.o --omf_browse debug\fsl_spi.crf --depend debug\fsl_spi.d)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_spi.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_clock.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_reset.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_flexcomm.h)(0x58E35FA2)
+F (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_inputmux.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_inputmux.o --omf_browse debug\fsl_inputmux.crf --depend debug\fsl_inputmux.d)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_inputmux.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_inputmux_connections.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_clock.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_reset.h)(0x58E35FA2)
+F (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_pint.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_pint.o --omf_browse debug\fsl_pint.crf --depend debug\fsl_pint.d)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_pint.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_clock.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_reset.h)(0x58E35FA2)
+F (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_ctimer.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_ctimer.o --omf_browse debug\fsl_ctimer.crf --depend debug\fsl_ctimer.d)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_ctimer.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_clock.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_reset.h)(0x58E35FA2)
+F (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_sctimer.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_sctimer.o --omf_browse debug\fsl_sctimer.crf --depend debug\fsl_sctimer.d)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_sctimer.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_clock.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_reset.h)(0x58E35FA2)
+F (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_dma.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_dma.o --omf_browse debug\fsl_dma.crf --depend debug\fsl_dma.d)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_dma.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_clock.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_reset.h)(0x58E35FA2)
+F (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_usart_dma.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_usart_dma.o --omf_browse debug\fsl_usart_dma.crf --depend debug\fsl_usart_dma.d)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_usart.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_clock.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_reset.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_dma.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_flexcomm.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\drivers\fsl_usart_dma.h)(0x58E35FA2)
+F (..\..\..\..\..\..\devices\LPC54114\cmsis_drivers\fsl_usart_cmsis.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_usart_cmsis.o --omf_browse debug\fsl_usart_cmsis.crf --depend debug\fsl_usart_cmsis.d)
+I (..\..\..\..\..\..\devices\LPC54114\cmsis_drivers\fsl_usart_cmsis.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (..\..\..\..\..\..\CMSIS\Driver\Include\Driver_USART.h)(0x58E35FA2)
+I (..\..\..\..\..\..\CMSIS\Driver\Include\Driver_Common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../../RTE_Device.h)(0x5B04F938)
+I (../../../../../../devices/LPC54114/drivers/fsl_usart.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_usart_dma.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_dma.h)(0x58E35FA2)
+F (../../pin_mux.c)(0x5B0D40B4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\pin_mux.o --omf_browse debug\pin_mux.crf --depend debug\pin_mux.d)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_iocon.h)(0x58E35FA2)
+I (../../pin_mux.h)(0x5B055BFD)
+F (../../pin_mux.h)(0x5B055BFD)()
+F (../board.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\board.o --omf_browse debug\board.crf --depend debug\board.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../clock_config.h)(0x58E35FA2)
+I (../board.h)(0x5AEAF7E1)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+F (../board.h)(0x5AEAF7E1)()
+F (../clock_config.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\clock_config.o --omf_browse debug\clock_config.crf --depend debug\clock_config.d)
+I (../../../../../../devices/LPC54114/drivers/fsl_power.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../clock_config.h)(0x58E35FA2)
+F (../clock_config.h)(0x58E35FA2)()
+F (../../../../../../middleware/multicore_2.2.0/mcmgr/src/mcmgr_internal_core_api_lpc54114.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\mcmgr_internal_core_api_lpc54114.o --omf_browse debug\mcmgr_internal_core_api_lpc54114.crf --depend debug\mcmgr_internal_core_api_lpc54114.d)
+I (../../../../../../middleware/multicore_2.2.0/mcmgr/src/mcmgr_internal_core_api.h)(0x58E35FA2)
+I (../../../../../../middleware/multicore_2.2.0/mcmgr/src/mcmgr.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_mailbox.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+F (../../../../../../middleware/multicore_2.2.0/mcmgr/src/mcmgr.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\mcmgr.o --omf_browse debug\mcmgr.crf --depend debug\mcmgr.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../middleware/multicore_2.2.0/mcmgr/src/mcmgr.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../../../../../../middleware/multicore_2.2.0/mcmgr/src/mcmgr_internal_core_api.h)(0x58E35FA2)
+F (../../../../../../middleware/multicore_2.2.0/mcmgr/src/mcmgr.h)(0x58E35FA2)()
+F (../../../../../../middleware/multicore_2.2.0/mcmgr/src/mcmgr_internal_core_api.h)(0x58E35FA2)()
+F (../../../../../../devices/LPC54114/utilities/fsl_debug_console.c)(0x58E35FA2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\fsl_debug_console.o --omf_browse debug\fsl_debug_console.crf --depend debug\fsl_debug_console.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_usart.h)(0x58E35FA2)
+F (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)()
+F (..\..\app\app_si70xx.c)(0x5B3597B9)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\app_si70xx.o --omf_browse debug\app_si70xx.crf --depend debug\app_si70xx.d)
+I (..\..\app\app_si70xx.h)(0x5B163264)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\board.h)(0x5AEAF7E1)
+I (..\clock_config.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+I (../../pin_mux.h)(0x5B055BFD)
+I (../../../../../../devices/LPC54114/drivers/fsl_iocon.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_i2c.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\..\app\app_interrupt.h)(0x583456DE)
+F (..\..\app\app_interrupt.c)(0x5AED6E6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\app_interrupt.o --omf_browse debug\app_interrupt.crf --depend debug\app_interrupt.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/drivers/fsl_adc.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (..\..\app\app_led.h)(0x5834564E)
+I (..\..\app\app_adc.h)(0x5834597E)
+I (..\..\app\app_dev_ctrl.h)(0x5B2CF427)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\inc\alloter.h)(0x5A94B7BB)
+I (..\..\inc\types.h)(0x5A405A91)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F606B6)
+I (..\..\inc\errno.h)(0x598A9B88)
+I (..\..\inc\compiler.h)(0x59914D60)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\..\app\protocol_smart.h)(0x5B14AB7E)
+I (..\..\inc\utils.h)(0x5B10E698)
+F (..\..\app\app_led.c)(0x5AFEBB89)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\app_led.o --omf_browse debug\app_led.crf --depend debug\app_led.d)
+I (..\board.h)(0x5AEAF7E1)
+I (..\clock_config.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (../../pin_mux.h)(0x5B055BFD)
+I (../../../../../../devices/LPC54114/drivers/fsl_iocon.h)(0x58E35FA2)
+I (..\..\app\app_led.h)(0x5834564E)
+F (..\..\app\app_dev_ctrl.c)(0x5B3B14C4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\app_dev_ctrl.o --omf_browse debug\app_dev_ctrl.crf --depend debug\app_dev_ctrl.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (..\..\app\app_dev_ctrl.h)(0x5B2CF427)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\inc\alloter.h)(0x5A94B7BB)
+I (..\..\inc\types.h)(0x5A405A91)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F606B6)
+I (..\..\inc\errno.h)(0x598A9B88)
+I (..\..\inc\compiler.h)(0x59914D60)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\..\app\protocol_smart.h)(0x5B14AB7E)
+I (..\..\inc\utils.h)(0x5B10E698)
+I (..\..\app\app_si70xx.h)(0x5B163264)
+I (..\..\app\app_led.h)(0x5834564E)
+I (..\..\app\app_lcd.h)(0x5AFFE435)
+I (..\..\app\app_spiflash.h)(0x5AF19849)
+I (..\..\app\app_key.h)(0x5AF574EA)
+I (..\..\app\app_realy.h)(0x5AFEB99E)
+I (..\..\app\app_beep.h)(0x5AFFD522)
+I (..\..\app\smart_plc.h)(0x5B10F608)
+I (..\..\..\..\..\..\devices\LPC54114\cmsis_drivers\fsl_usart_cmsis.h)(0x58E35FA2)
+I (..\..\..\..\..\..\CMSIS\Driver\Include\Driver_USART.h)(0x58E35FA2)
+I (..\..\..\..\..\..\CMSIS\Driver\Include\Driver_Common.h)(0x58E35FA2)
+I (../../RTE_Device.h)(0x5B04F938)
+I (../../../../../../devices/LPC54114/drivers/fsl_usart.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_usart_dma.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_dma.h)(0x58E35FA2)
+I (..\..\app\auto_report.h)(0x5B14E245)
+I (..\..\app\auto_report_app.h)(0x5A321F9C)
+F (..\..\app\app_lcd.c)(0x5B36ED3B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\app_lcd.o --omf_browse debug\app_lcd.crf --depend debug\app_lcd.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\app\app_lcd.h)(0x5AFFE435)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\board.h)(0x5AEAF7E1)
+I (..\clock_config.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+I (../../pin_mux.h)(0x5B055BFD)
+I (../../../../../../devices/LPC54114/drivers/fsl_iocon.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_i2c.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\..\app\app_interrupt.h)(0x583456DE)
+I (..\..\app\app_dev_ctrl.h)(0x5B2CF427)
+I (..\..\inc\alloter.h)(0x5A94B7BB)
+I (..\..\inc\types.h)(0x5A405A91)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F606B6)
+I (..\..\inc\errno.h)(0x598A9B88)
+I (..\..\inc\compiler.h)(0x59914D60)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\..\app\protocol_smart.h)(0x5B14AB7E)
+I (..\..\inc\utils.h)(0x5B10E698)
+I (..\..\app\app_si70xx.h)(0x5B163264)
+F (..\..\app\app_spiflash.c)(0x58346EAA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\app_spiflash.o --omf_browse debug\app_spiflash.crf --depend debug\app_spiflash.d)
+I (..\board.h)(0x5AEAF7E1)
+I (..\clock_config.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (../../pin_mux.h)(0x5B055BFD)
+I (../../../../../../devices/LPC54114/drivers/fsl_iocon.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_spi.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_flexcomm.h)(0x58E35FA2)
+I (..\..\app\app_spiflash.h)(0x5AF19849)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+F (..\..\app\app_key.c)(0x5AFFE6A2)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\app_key.o --omf_browse debug\app_key.crf --depend debug\app_key.d)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_inputmux.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_inputmux_connections.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_pint.h)(0x58E35FA2)
+I (..\board.h)(0x5AEAF7E1)
+I (..\clock_config.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (../../pin_mux.h)(0x5B055BFD)
+I (../../../../../../devices/LPC54114/drivers/fsl_iocon.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_i2c.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (..\..\app\app_interrupt.h)(0x583456DE)
+I (..\..\app\app_key.h)(0x5AF574EA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\app\app_dev_ctrl.h)(0x5B2CF427)
+I (..\..\inc\alloter.h)(0x5A94B7BB)
+I (..\..\inc\types.h)(0x5A405A91)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F606B6)
+I (..\..\inc\errno.h)(0x598A9B88)
+I (..\..\inc\compiler.h)(0x59914D60)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\..\app\protocol_smart.h)(0x5B14AB7E)
+I (..\..\inc\utils.h)(0x5B10E698)
+I (..\..\app\app_lcd.h)(0x5AFFE435)
+I (..\..\app\app_beep.h)(0x5AFFD522)
+F (..\..\app\app_realy.c)(0x5B3B1197)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\app_realy.o --omf_browse debug\app_realy.crf --depend debug\app_realy.d)
+I (..\board.h)(0x5AEAF7E1)
+I (..\clock_config.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (../../pin_mux.h)(0x5B055BFD)
+I (../../../../../../devices/LPC54114/drivers/fsl_iocon.h)(0x58E35FA2)
+I (..\..\app\app_realy.h)(0x5AFEB99E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\app\app_lcd.h)(0x5AFFE435)
+F (..\..\app\app_beep.c)(0x5AFFD813)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\app_beep.o --omf_browse debug\app_beep.crf --depend debug\app_beep.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\board.h)(0x5AEAF7E1)
+I (..\clock_config.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (../../pin_mux.h)(0x5B055BFD)
+I (../../../../../../devices/LPC54114/drivers/fsl_iocon.h)(0x58E35FA2)
+I (..\..\app\app_beep.h)(0x5AFFD522)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/drivers/fsl_sctimer.h)(0x58E35FA2)
+F (..\..\app\smart_plc.c)(0x5B303AE7)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\smart_plc.o --omf_browse debug\smart_plc.crf --depend debug\smart_plc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\inc\alloter.h)(0x5A94B7BB)
+I (..\..\inc\types.h)(0x5A405A91)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\inc\errno.h)(0x598A9B88)
+I (..\..\inc\compiler.h)(0x59914D60)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\..\inc\utils.h)(0x5B10E698)
+I (..\board.h)(0x5AEAF7E1)
+I (..\clock_config.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (..\..\app\app_dev_ctrl.h)(0x5B2CF427)
+I (..\..\app\protocol_smart.h)(0x5B14AB7E)
+I (..\..\app\smart_plc.h)(0x5B10F608)
+I (../../pin_mux.h)(0x5B055BFD)
+I (../../../../../../devices/LPC54114/drivers/fsl_usart.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_flexcomm.h)(0x58E35FA2)
+I (..\..\..\..\..\..\devices\LPC54114\cmsis_drivers\fsl_usart_cmsis.h)(0x58E35FA2)
+I (..\..\..\..\..\..\CMSIS\Driver\Include\Driver_USART.h)(0x58E35FA2)
+I (..\..\..\..\..\..\CMSIS\Driver\Include\Driver_Common.h)(0x58E35FA2)
+I (../../RTE_Device.h)(0x5B04F938)
+I (../../../../../../devices/LPC54114/drivers/fsl_usart_dma.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_dma.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_iocon.h)(0x58E35FA2)
+I (..\..\app\app_spiflash.h)(0x5AF19849)
+I (..\..\app\app_lcd.h)(0x5AFFE435)
+I (..\..\app\auto_report.h)(0x5B14E245)
+I (..\..\app\auto_report_app.h)(0x5A321F9C)
+F (..\..\app\protocol_smart.c)(0x5B2D97FB)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\protocol_smart.o --omf_browse debug\protocol_smart.crf --depend debug\protocol_smart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\inc\types.h)(0x5A405A91)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\inc\errno.h)(0x598A9B88)
+I (..\..\inc\compiler.h)(0x59914D60)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\..\inc\utils.h)(0x5B10E698)
+I (..\..\app\protocol_smart.h)(0x5B14AB7E)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (..\..\app\app_dev_ctrl.h)(0x5B2CF427)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\inc\alloter.h)(0x5A94B7BB)
+I (..\..\app\app_si70xx.h)(0x5B163264)
+I (..\..\app\auto_report.h)(0x5B14E245)
+I (..\..\app\auto_report_app.h)(0x5A321F9C)
+F (..\..\app\auto_report.c)(0x5B40442A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\auto_report.o --omf_browse debug\auto_report.crf --depend debug\auto_report.d)
+I (..\..\inc\alloter.h)(0x5A94B7BB)
+I (..\..\inc\types.h)(0x5A405A91)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\inc\errno.h)(0x598A9B88)
+I (..\..\inc\compiler.h)(0x59914D60)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\..\app\protocol_smart.h)(0x5B14AB7E)
+I (..\..\inc\utils.h)(0x5B10E698)
+I (..\..\app\auto_report_app.h)(0x5A321F9C)
+I (..\..\app\auto_report.h)(0x5B14E245)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (..\..\app\app_dev_ctrl.h)(0x5B2CF427)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+F (..\..\app\auto_report_app.c)(0x5B3B1346)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\auto_report_app.o --omf_browse debug\auto_report_app.crf --depend debug\auto_report_app.d)
+I (..\..\app\protocol_smart.h)(0x5B14AB7E)
+I (..\..\inc\types.h)(0x5A405A91)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\inc\errno.h)(0x598A9B88)
+I (..\..\inc\compiler.h)(0x59914D60)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\..\inc\utils.h)(0x5B10E698)
+I (..\..\app\auto_report_app.h)(0x5A321F9C)
+I (..\..\app\auto_report.h)(0x5B14E245)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\inc\device.h)(0x5AFFE6EA)
+I (..\..\inc\kfifo.h)(0x59914D60)
+I (..\..\inc\object.h)(0x598A9B88)
+I (..\..\app\app_dev_ctrl.h)(0x5B2CF427)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\..\inc\alloter.h)(0x5A94B7BB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (../../../../../../devices/LPC54114/utilities/fsl_debug_console.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (..\..\app\app_si70xx.h)(0x5B163264)
+I (..\..\app\app_lcd.h)(0x5AFFE435)
+F (..\..\src\alloter.c)(0x5B0E8F7C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\alloter.o --omf_browse debug\alloter.crf --depend debug\alloter.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\inc\alloter.h)(0x5A94B7BB)
+I (..\..\inc\types.h)(0x5A405A91)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (..\..\inc\errno.h)(0x598A9B88)
+I (..\..\inc\compiler.h)(0x59914D60)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\..\inc\utils.h)(0x5B10E698)
+I (..\board.h)(0x5AEAF7E1)
+I (..\clock_config.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_common.h)(0x58E35FA2)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (../../../../../../devices/LPC54114/fsl_device_registers.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cm4.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmInstr.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/cmsis_armcc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmFunc.h)(0x58E35FA2)
+I (../../../../../../CMSIS/Include/core_cmSimd.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/system_LPC54114_cm4.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/LPC54114_cm4_features.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_clock.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_reset.h)(0x58E35FA2)
+I (../../../../../../devices/LPC54114/drivers/fsl_gpio.h)(0x58E35FA2)
+I (..\..\app\app_dev_ctrl.h)(0x5B2CF427)
+I (..\..\app\protocol_smart.h)(0x5B14AB7E)
+F (..\..\app\utils.c)(0x5B113ABB)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../../../../../../CMSIS/Include -I ../../../../../../devices -I ../../../../../../devices/LPC54114 -I ../../../.. -I .. -I ../.. -I ../../../../../../devices/LPC54114/drivers -I ../../../../../../devices/LPC54114/utilities -I ../../../../../../platform/drivers/mailbox -I ../../../../../../middleware/multicore_2.2.0/mcmgr/src -I ..\..\app -I ..\..\inc -I ..\..\..\..\..\..\devices\LPC54114\cmsis_drivers -I ..\..\..\..\..\..\CMSIS\Driver\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186  --gnu-IC:\Users\ThinkPad\Documents\LPC54114\P-TK-05-2FC-LPC54114\boards\lpcxpresso54114\multicore_examples\hello_world_双串口输出_UART0_UART5-2018-06-05\cm4\mdk\RTE\_hello_world_cm4_Debug-IC:\Keil_v5\ARM\PACK\Keil\LPC54000_DFP\2.2.0\LPCOpen\lpc5411x\chip_5411x\inc-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DCHIP_LPC5411X -DDEBUG -DCORE1_IMAGE_COPY_TO_RAM -DCPU_LPC54114J256BD64_cm4 -DCORE_M4-o debug\utils.o --omf_browse debug\utils.crf --depend debug\utils.d)
+I (..\..\inc\utils.h)(0x5B10E698)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\..\inc\types.h)(0x5A405A91)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x57F606B6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\inc\errno.h)(0x598A9B88)
+I (..\..\inc\compiler.h)(0x59914D60)

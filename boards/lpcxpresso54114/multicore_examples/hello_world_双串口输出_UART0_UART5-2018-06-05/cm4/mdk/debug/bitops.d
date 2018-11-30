@@ -1,0 +1,14 @@
+debug\bitops.o: ..\..\src\bitops.c
+debug\bitops.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+debug\bitops.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+debug\bitops.o: ..\..\inc\utils.h
+debug\bitops.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+debug\bitops.o: ..\..\inc\types.h
+debug\bitops.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+debug\bitops.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+debug\bitops.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+debug\bitops.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\bitops.o: ..\..\inc\errno.h
+debug\bitops.o: ..\..\inc\compiler.h
+debug\bitops.o: ..\..\inc\bitmap.h
+debug\bitops.o: ..\..\inc\bitops.h

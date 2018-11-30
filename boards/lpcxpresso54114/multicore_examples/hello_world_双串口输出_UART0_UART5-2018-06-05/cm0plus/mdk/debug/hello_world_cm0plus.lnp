@@ -1,0 +1,23 @@
+--cpu Cortex-M0+
+"debug\startup_lpc54114_cm0plus.o"
+"debug\system_lpc54114_cm0plus.o"
+"debug\fsl_usart.o"
+"debug\fsl_flexcomm.o"
+"debug\fsl_gpio.o"
+"debug\fsl_common.o"
+"debug\fsl_clock.o"
+"debug\fsl_reset.o"
+"debug\fsl_power.o"
+"debug\fsl_i2c.o"
+"debug\hello_world_core1.o"
+"debug\app_si70xx.o"
+"debug\pin_mux.o"
+"debug\board.o"
+"debug\clock_config.o"
+"debug\mcmgr_internal_core_api_lpc54114.o"
+"debug\mcmgr.o"
+"debug\fsl_debug_console.o"
+--library_type=microlib --diag_suppress 6314 --strict --scatter "LPC54114J256_cm0plus.scf"
+../../../../../../devices/LPC54114/arm/keil_lib_power_m0.lib --remove --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\output\hello_world_cm0plus.map" -o debug\hello_world_cm0plus.out

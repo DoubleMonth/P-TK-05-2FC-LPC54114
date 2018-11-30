@@ -1,0 +1,10 @@
+debug\utils.o: ..\..\app\utils.c
+debug\utils.o: ..\..\inc\utils.h
+debug\utils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+debug\utils.o: ..\..\inc\types.h
+debug\utils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+debug\utils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+debug\utils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+debug\utils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\utils.o: ..\..\inc\errno.h
+debug\utils.o: ..\..\inc\compiler.h

@@ -1,0 +1,14 @@
+debug\bitmap.o: ..\..\src\bitmap.c
+debug\bitmap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+debug\bitmap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+debug\bitmap.o: ..\..\inc\bitmap.h
+debug\bitmap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\bitmap.o: ..\..\inc\bitops.h
+debug\bitmap.o: ..\..\inc\types.h
+debug\bitmap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+debug\bitmap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+debug\bitmap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+debug\bitmap.o: ..\..\inc\errno.h
+debug\bitmap.o: ..\..\inc\compiler.h
+debug\bitmap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+debug\bitmap.o: ..\..\inc\utils.h

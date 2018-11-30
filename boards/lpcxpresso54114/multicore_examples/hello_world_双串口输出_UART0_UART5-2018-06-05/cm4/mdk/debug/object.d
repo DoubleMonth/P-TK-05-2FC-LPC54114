@@ -1,0 +1,17 @@
+debug\object.o: ..\..\src\object.c
+debug\object.o: ..\..\inc\printk.h
+debug\object.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\object.o: ..\..\inc\device.h
+debug\object.o: ..\..\inc\types.h
+debug\object.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+debug\object.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\ctype.h
+debug\object.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+debug\object.o: ..\..\inc\errno.h
+debug\object.o: ..\..\inc\compiler.h
+debug\object.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+debug\object.o: ..\..\inc\kfifo.h
+debug\object.o: ..\..\inc\utils.h
+debug\object.o: ..\..\inc\object.h
+debug\object.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+debug\object.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+debug\object.o: ..\..\inc\klist.h
